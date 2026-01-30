@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
   <head>
     <meta charset="utf-8" />
@@ -27,16 +27,16 @@
         theme: {
           extend: {
             colors: {
-              'kerten-bg': '#0f172a',
-              'kerten-dark': '#0a0e27',
-              'kerten-accent': '#00f0ff',
-              'kerten-secondary': '#0ea5e9',
-              'kerten-gold': '#fbbf24',
-              'kerten-slate': '#1e293b',
+              "kerten-bg": "#0f172a",
+              "kerten-dark": "#0a0e27",
+              "kerten-accent": "#00f0ff",
+              "kerten-secondary": "#0ea5e9",
+              "kerten-gold": "#fbbf24",
+              "kerten-slate": "#1e293b",
             },
             fontFamily: {
-              sans: ['Inter', 'ui-sans-serif', 'system-ui'],
-              display: ['Playfair Display', 'serif'],
+              sans: ["Inter", "ui-sans-serif", "system-ui"],
+              display: ["Playfair Display", "serif"],
             },
           },
         },
@@ -60,11 +60,14 @@
       }
 
       * {
-        transition: color 0.3s ease, background-color 0.3s ease;
+        transition:
+          color 0.3s ease,
+          background-color 0.3s ease;
       }
 
       body {
-        background: radial-gradient(
+        background:
+          radial-gradient(
             1400px 700px at 15% 20%,
             rgba(0, 209, 255, 0.02),
             transparent 30%
@@ -164,7 +167,7 @@
       }
 
       .btn-glow::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: -100%;
@@ -218,7 +221,7 @@
                 class="w-12 h-12 rounded-xl overflow-hidden shadow-lg flex-shrink-0"
               >
                 <img
-                  src="path/ke/logo-k2.png"
+                  src="/assets/logo (2).PNG"
                   alt="Logo KKN Kerten 02"
                   class="w-full h-full object-cover"
                 />
@@ -574,21 +577,23 @@
 
             <article
               class="member-card tilt-preserve rounded-xl p-5 glass-effect shadow-lg hover:shadow-[0_0_20px_rgba(0,240,255,0.2)] transform hover:scale-[1.03] cursor-pointer transition"
-              data-name="Gita Marlina"
-              data-nim="23111007"
-              data-role="Pendidikan"
-              data-photo="https://randomuser.me/api/portraits/women/17.jpg"
+              data-name="Amal Ramadhani"
+              data-nim="223450078"
+              data-role="Perlengkapan"
+              data-photo="/assets/amal"
               tabindex="0"
             >
               <div class="flex items-center gap-3">
                 <img
-                  src="https://randomuser.me/api/portraits/women/17.jpg"
-                  alt="Gita Marlina"
+                  src="/assets/amal.jpeg"
+                  alt="Amal Ramadhani"
                   class="w-14 h-14 rounded-lg object-cover border border-kerten-accent/20"
                 />
                 <div>
-                  <div class="font-semibold text-sm">Gita Marlina</div>
-                  <div class="text-xs text-white/60">23111007 • Pendidikan</div>
+                  <div class="font-semibold text-sm">Amal Ramadhani</div>
+                  <div class="text-xs text-white/60">
+                    223450078 • Perlengkapan
+                  </div>
                 </div>
               </div>
             </article>
@@ -635,7 +640,7 @@
                     <div>
                       <div class="font-semibold">Lokasi</div>
                       <div class="text-white/60">
-                        Kecamatan Gantiwarno, Populasi ~2.500 jiwa
+                        Kecamatan Gantiwarno, Populasi ~2.500± jiwa
                       </div>
                     </div>
                   </div>
@@ -782,14 +787,14 @@
               data-full="/placeholder.svg?height=600&width=600"
             >
               <img
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/IMG_0935.jpg"
                 alt="Dokumentasi 1"
                 class="w-full h-48 object-cover"
               />
               <div class="p-4">
-                <div class="text-sm font-semibold">Kegiatan Sosialisasi</div>
+                <div class="text-sm font-semibold">Program kerja utama</div>
                 <div class="text-xs text-white/60 mt-1">
-                  Dokumentasi kegiatan penyuluhan pendidikan
+                  pemasangan kaca cembung di beberapa blindspot
                 </div>
               </div>
             </div>
@@ -799,14 +804,16 @@
               data-full="/placeholder.svg?height=600&width=600"
             >
               <img
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/output-onlinepngtools.png"
                 alt="Dokumentasi 2"
                 class="w-full h-48 object-cover"
               />
               <div class="p-4">
-                <div class="text-sm font-semibold">Kerja Bakti</div>
+                <div class="text-sm font-semibold">
+                  Kegiatan proker kelompok 02
+                </div>
                 <div class="text-xs text-white/60 mt-1">
-                  Dokumentasi kegiatan gotong-royong masyarakat
+                  Belajar bersama anak-anak desa Gedongan
                 </div>
               </div>
             </div>
@@ -816,15 +823,13 @@
               data-full="/placeholder.svg?height=600&width=600"
             >
               <img
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/dok3.jpeg"
                 alt="Dokumentasi 3"
                 class="w-full h-48 object-cover"
               />
               <div class="p-4">
-                <div class="text-sm font-semibold">Workshop Karir</div>
-                <div class="text-xs text-white/60 mt-1">
-                  Dokumentasi workshop roadmap karir untuk siswa
-                </div>
+                <div class="text-sm font-semibold">Dokumentasi rapat</div>
+                <div class="text-xs text-white/60 mt-1">Dokumentasi rapat</div>
               </div>
             </div>
           </div>
@@ -837,14 +842,33 @@
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <div class="flex items-center gap-3 mb-4">
-                <div
-                  class="w-10 h-10 rounded-lg bg-gradient-to-br from-kerten-accent to-kteren-secondary flex items-center justify-center text-kerten-dark font-bold"
-                >
-                  K2
-                </div>
+                <!-- Ganti dengan logo gambar -->
+                <img
+                  src="/assets/logo (2).PNG"
+                  alt="KKN Kelompok 02 Logo"
+                  class="w-10 h-10 rounded-lg object-cover"
+                />
                 <span class="font-semibold">KKN Kelompok 02</span>
               </div>
-              <p class="text-sm text-white/60">Universitas Budi Luhur</p>
+              <p class="text-sm text-white/60 mb-4">Universitas Budi Luhur</p>
+              <!-- Instagram Link -->
+              <a
+                href="https://www.instagram.com/seduluranklaten"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-sm text-white/60 hover:text-kerten-accent transition group"
+              >
+                <svg
+                  class="w-5 h-5 group-hover:scale-110 transition-transform"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                  />
+                </svg>
+                <span>@kkn_kelompok02</span>
+              </a>
             </div>
             <div>
               <div class="font-semibold mb-3">Program</div>
@@ -920,49 +944,49 @@
       const select = (s, ctx = document) => (ctx || document).querySelector(s);
 
       (function heroEnter() {
-        const enterBtn = select('#enterBtn');
-        const hero = select('#hero');
-        const nextSection = select('#members');
+        const enterBtn = select("#enterBtn");
+        const hero = select("#hero");
+        const nextSection = select("#members");
 
-        enterBtn.addEventListener('click', (e) => {
+        enterBtn.addEventListener("click", (e) => {
           const tl = gsap.timeline({
-            defaults: { duration: 0.9, ease: 'power2.inOut' },
+            defaults: { duration: 0.9, ease: "power2.inOut" },
             onComplete: () => {
               nextSection.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start',
+                behavior: "smooth",
+                block: "start",
               });
             },
           });
 
           tl.to(hero, {
             scale: 1.02,
-            filter: 'brightness(0.85)',
+            filter: "brightness(0.85)",
             autoAlpha: 0,
-            transformOrigin: 'center center',
+            transformOrigin: "center center",
           });
           tl.fromTo(
             nextSection,
             { y: 40, autoAlpha: 0 },
             { y: 0, autoAlpha: 1 },
-            '-=0.2'
+            "-=0.2",
           );
         });
       })();
 
       /* Scroll animations */
       (function setupSectionAnimations() {
-        const sections = selectAll('main section');
+        const sections = selectAll("main section");
         sections.forEach((sec) => {
           gsap.from(sec, {
             y: 40,
             autoAlpha: 0,
             duration: 0.9,
-            ease: 'power2.out',
+            ease: "power2.out",
             scrollTrigger: {
               trigger: sec,
-              start: 'top 85%',
-              toggleActions: 'play none none none',
+              start: "top 85%",
+              toggleActions: "play none none none",
             },
           });
         });
@@ -970,17 +994,17 @@
 
       /* Parallax */
       (function parallaxShapes() {
-        const shapes = select('#parallaxShapes');
+        const shapes = select("#parallaxShapes");
         if (!shapes) return;
         gsap.to(shapes, {
           y: -80,
           x: 20,
           rotate: 2,
-          ease: 'none',
+          ease: "none",
           scrollTrigger: {
-            trigger: '#hero',
-            start: 'top top',
-            end: 'bottom top',
+            trigger: "#hero",
+            start: "top top",
+            end: "bottom top",
             scrub: 0.6,
           },
         });
@@ -988,7 +1012,7 @@
 
       /* 3D Tilt Effect */
       (function tiltEffect() {
-        const tiltItems = selectAll('.tilt-preserve');
+        const tiltItems = selectAll(".tilt-preserve");
         tiltItems.forEach((el) => {
           const limit = 12;
 
@@ -999,32 +1023,32 @@
             const rotY = (px - 0.5) * (limit * 2);
             const rotX = (0.5 - py) * (limit * 2);
             el.style.transform = `perspective(900px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(8px)`;
-            el.style.transition = 'transform 0s';
+            el.style.transition = "transform 0s";
           }
           function handleEnter() {
-            el.style.transition = 'transform 0.18s ease';
+            el.style.transition = "transform 0.18s ease";
             gsap.to(el, { scale: 1.02, duration: 0.18 });
           }
           function handleLeave() {
-            el.style.transition = 'transform 0.6s cubic-bezier(.2,.9,.2,1)';
-            el.style.transform = 'none';
+            el.style.transition = "transform 0.6s cubic-bezier(.2,.9,.2,1)";
+            el.style.transform = "none";
             gsap.to(el, { scale: 1, duration: 0.5 });
           }
 
-          el.addEventListener('mousemove', handleMove);
-          el.addEventListener('mouseenter', handleEnter);
-          el.addEventListener('mouseleave', handleLeave);
-          el.addEventListener('keydown', (ev) => {
-            if (ev.key === 'Enter') el.click();
+          el.addEventListener("mousemove", handleMove);
+          el.addEventListener("mouseenter", handleEnter);
+          el.addEventListener("mouseleave", handleLeave);
+          el.addEventListener("keydown", (ev) => {
+            if (ev.key === "Enter") el.click();
           });
         });
       })();
 
       /* Member cards dengan SweetAlert2 */
       (function memberCards() {
-        const cards = selectAll('.member-card');
+        const cards = selectAll(".member-card");
         cards.forEach((card) => {
-          card.addEventListener('click', async () => {
+          card.addEventListener("click", async () => {
             const name = card.dataset.name;
             const nim = card.dataset.nim;
             const role = card.dataset.role;
@@ -1042,14 +1066,14 @@
                 <p class="text-gray-400 text-sm">Kontribusi signifikan dalam perencanaan dan pelaksanaan program kerja desa.</p>
               </div>
             `,
-              confirmButtonText: 'Tutup',
-              confirmButtonColor: '#00f0ff',
-              background: '#0f172a',
-              color: '#ffffff',
+              confirmButtonText: "Tutup",
+              confirmButtonColor: "#00f0ff",
+              background: "#0f172a",
+              color: "#ffffff",
               allowOutsideClick: true,
               customClass: {
-                popup: 'rounded-2xl',
-                confirmButton: 'font-semibold px-6 py-2 rounded-lg',
+                popup: "rounded-2xl",
+                confirmButton: "font-semibold px-6 py-2 rounded-lg",
               },
             });
           });
@@ -1058,9 +1082,9 @@
 
       /* Proker cards dengan SweetAlert2 */
       (function prokerCards() {
-        const cards = selectAll('.proker-card');
+        const cards = selectAll(".proker-card");
         cards.forEach((card) => {
-          card.addEventListener('click', () => {
+          card.addEventListener("click", () => {
             const title = card.dataset.title;
             const desc = card.dataset.desc;
 
@@ -1080,14 +1104,14 @@
                 </div>
               </div>
             `,
-              confirmButtonText: 'Mengerti',
-              confirmButtonColor: '#00f0ff',
-              background: '#0f172a',
-              color: '#ffffff',
+              confirmButtonText: "Mengerti",
+              confirmButtonColor: "#00f0ff",
+              background: "#0f172a",
+              color: "#ffffff",
               allowOutsideClick: true,
               customClass: {
-                popup: 'rounded-2xl',
-                confirmButton: 'font-semibold px-6 py-2 rounded-lg',
+                popup: "rounded-2xl",
+                confirmButton: "font-semibold px-6 py-2 rounded-lg",
               },
             });
           });
@@ -1096,10 +1120,10 @@
 
       /* Desa icon dengan SweetAlert2 */
       (function desaInfo() {
-        const icon = select('#desaIcon');
-        icon.addEventListener('click', () => {
+        const icon = select("#desaIcon");
+        icon.addEventListener("click", () => {
           Swal.fire({
-            title: 'Informasi Desa Kerten',
+            title: "Informasi Desa Kerten",
             html: `
             <div class="text-left space-y-4">
               <div>
@@ -1108,7 +1132,7 @@
               </div>
               <div>
                 <div class="font-semibold text-kerten-accent mb-1">👥 Populasi</div>
-                <p class="text-gray-300">Sekitar 2.500 jiwa dengan mayoritas pertanian</p>
+                <p class="text-gray-300">Sekitar 2.500± jiwa dengan mayoritas pertanian</p>
               </div>
               <div>
                 <div class="font-semibold text-kerten-accent mb-1">🏢 Fasilitas Utama</div>
@@ -1123,14 +1147,14 @@
               </div>
             </div>
           `,
-            confirmButtonText: 'Terima Kasih',
-            confirmButtonColor: '#00f0ff',
-            background: '#0f172a',
-            color: '#ffffff',
+            confirmButtonText: "Terima Kasih",
+            confirmButtonColor: "#00f0ff",
+            background: "#0f172a",
+            color: "#ffffff",
             allowOutsideClick: true,
             customClass: {
-              popup: 'rounded-2xl',
-              confirmButton: 'font-semibold px-6 py-2 rounded-lg',
+              popup: "rounded-2xl",
+              confirmButton: "font-semibold px-6 py-2 rounded-lg",
             },
           });
         });
@@ -1138,26 +1162,26 @@
 
       /* Lightbox dokumentasi */
       (function docsLightbox() {
-        const items = selectAll('.doc-item');
-        const lightbox = select('#lightbox');
-        const lightboxImg = select('#lightboxImg');
-        const lightboxClose = select('#lightboxClose');
+        const items = selectAll(".doc-item");
+        const lightbox = select("#lightbox");
+        const lightboxImg = select("#lightboxImg");
+        const lightboxClose = select("#lightboxClose");
 
         items.forEach((item) => {
-          item.addEventListener('click', () => {
+          item.addEventListener("click", () => {
             const src = item.dataset.full;
             lightboxImg.src = src;
-            lightbox.classList.remove('hidden');
-            lightbox.classList.add('flex');
+            lightbox.classList.remove("hidden");
+            lightbox.classList.add("flex");
             gsap.fromTo(
               lightbox,
               { autoAlpha: 0 },
-              { autoAlpha: 1, duration: 0.25 }
+              { autoAlpha: 1, duration: 0.25 },
             );
             gsap.from(lightboxImg, {
               scale: 0.9,
               duration: 0.5,
-              ease: 'back.out(1.2)',
+              ease: "back.out(1.2)",
             });
           });
         });
@@ -1167,20 +1191,20 @@
             autoAlpha: 0,
             duration: 0.25,
             onComplete: () => {
-              lightbox.classList.add('hidden');
-              lightbox.classList.remove('flex');
-              lightboxImg.src = '';
+              lightbox.classList.add("hidden");
+              lightbox.classList.remove("flex");
+              lightboxImg.src = "";
             },
           });
         }
-        lightboxClose.addEventListener('click', closeLB);
-        lightbox.addEventListener('click', (ev) => {
+        lightboxClose.addEventListener("click", closeLB);
+        lightbox.addEventListener("click", (ev) => {
           if (ev.target === lightbox) closeLB();
         });
       })();
 
       /* gradient animation */
-      const style = document.createElement('style');
+      const style = document.createElement("style");
       style.textContent = `
       @keyframes gradientShift {
         0% { background-position: 0% 50%; }
